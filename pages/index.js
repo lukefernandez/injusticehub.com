@@ -47,7 +47,7 @@ const Home = () => (
       .title,
       .description {
         text-align: center;
-        width: 600px;
+        max-width: 600px;
       }
 
       .description {
@@ -77,7 +77,6 @@ const Home = () => (
 
         .description {
           font-size: 1.25rem;
-          width: 400px;
         }
       }
     `}</style>
